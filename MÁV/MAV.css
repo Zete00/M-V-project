@@ -1,0 +1,134 @@
+body {
+    background-image: url(img/BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.899);
+    width: auto;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+.nav-link {
+    color: blue;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar-link {
+    font-weight: 400;
+}    
+
+#sidebar {
+    display: flex;
+    border-bottom-right-radius: 30px;
+    width: 300px;
+    float: left;
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover
+}
+
+h1 {
+    font-style: oblique;
+    text-align: left;
+    font-variant: small-caps;
+    border-bottom: 5px solid blue;
+    border-right: 5px solid blue;
+    border-radius: 30%;
+    width: fit-content;
+    color: whitesmoke;
+}
+
+h2 {
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+.card {
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    border: 3px rgb(0, 0, 100) solid;
+}
+
+.card-img-top {
+    height: 600px;
+    width: auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+#karrier {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    display: flex;
+    float: right;
+    height: 430px;
+}
+
+#karrier-img {
+    height: 300px;
+}
+
+.btn {
+    float: right;
+}
+
+.kartyak {
+    float: right;
+    margin-right: 10px;
+}
+
+.feher-div {
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#fekete {
+    color: black;
+}
+
+h3 {
+    font-style: oblique;
+    font-variant: small-caps;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#storno {
+    border: none;
+    transform: none;
+}
+
+li::marker {
+    color: blue;
+}
