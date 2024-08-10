@@ -69,7 +69,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="card" id="storno" style="width:fit-content; margin-top: 20px;">
-                    <img class="card-img-top" src="img/varmegye.png" style="width: 500px; height: 400px;">
+                    <img class="card-img-top" src="img/varmegye.png" style="max-width: 450px; max-height: 350px; margin-top: 50px; margin-left: 50px; margin-right: 50px; margin-bottom: 10px;">
                     <div class="card-body">
                         <h4 class="card-title">Vármegyebérlet</h4>
                         <p class="card-text">Csak a kiválasztott vármegyében alkalmazható. <br> Érvényes: <span class="b">MÁV-START, VOLÁNBUSZ</span>.</p>
@@ -121,9 +121,59 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card" id="storno" style="width:fit-content; margin-top: 20px;">
+                    <img class="card-img-top" src="img/KutyaKorv.png" style="width: 500px; height: 400px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Kutyabérlet</h4>
+                        </select>
+                        <p class="card-text">Időtartam:</p>
+                        <select name="Időtartam" class="from-select" id="ticketSelect1">
+                            <option value="Month1">Hónapos Bérlet</option>
+                            <option value="Day1">Napi jegy</option>
+                        </select>
+                        <div class="row">
+                            <div class="col-12 col-xs-9">
+                                <label for="finalPrice">Végleges Ár:</label>
+                                <span id="finalPrice1" class="b">1890</span> HUF
+                            </div>
+                            <div class="col-12 col-xs-3">
+                                <a href="#" class="btn btn-primary">Vásárlás</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card" id="storno" style="width:fit-content; margin-top: 20px;">
+                    <img class="card-img-top" src="img/KerekparKorv.png" style="width: 500px; height: 400px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Kerékpárbérlet</h4>
+                        </select>
+                        <p class="card-text">Időtartam:</p>
+                        <select name="Időtartam" class="from-select" id="ticketSelect2">
+                            <option value="Month2">Hónapos Bérlet</option>
+                            <option value="Day2">Napi jegy</option>
+                        </select>
+                        <div class="row">
+                            <div class="col-12 col-xs-9">
+                                <label for="finalPrice">Végleges Ár:</label>
+                                <span id="finalPrice2" class="b">4950</span> HUF
+                            </div>
+                            <div class="col-12 col-xs-3">
+                                <a href="#" class="btn btn-primary">Vásárlás</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="OrszagB.js"></script>
     <script src="VarMB.js"></script>
+    <script src="KutyaB.js"></script>
+    <script src="KerekparB.js"></script>
 </body>
 </html>
